@@ -14,6 +14,9 @@
 		C270BC3A1C75772E00B93838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C270BC381C75772E00B93838 /* LaunchScreen.storyboard */; };
 		C270BC451C75772E00B93838 /* QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C270BC441C75772E00B93838 /* QuizTests.swift */; };
 		C270BC501C75772E00B93838 /* QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C270BC4F1C75772E00B93838 /* QuizUITests.swift */; };
+		C270BC5E1C757C7400B93838 /* golden_bridge.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C270BC5D1C757C7400B93838 /* golden_bridge.jpg */; };
+		C2C70C481C7593BC004E8939 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C70C471C7593BC004E8939 /* SecondViewController.swift */; };
+		C2C70C4A1C759BF6004E8939 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C70C491C759BF6004E8939 /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		C270BC4B1C75772E00B93838 /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C270BC4F1C75772E00B93838 /* QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizUITests.swift; sourceTree = "<group>"; };
 		C270BC511C75772E00B93838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C270BC5D1C757C7400B93838 /* golden_bridge.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = golden_bridge.jpg; path = ../../golden_bridge.jpg; sourceTree = "<group>"; };
+		C2C70C471C7593BC004E8939 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C2C70C491C759BF6004E8939 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		C270BC2E1C75772E00B93838 /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				C270BC5D1C757C7400B93838 /* golden_bridge.jpg */,
+				C270BC3B1C75772E00B93838 /* Info.plist */,
 				C270BC2F1C75772E00B93838 /* AppDelegate.swift */,
+				C2C70C471C7593BC004E8939 /* SecondViewController.swift */,
+				C2C70C491C759BF6004E8939 /* ThirdViewController.swift */,
 				C270BC311C75772E00B93838 /* ViewController.swift */,
-				C270BC331C75772E00B93838 /* Main.storyboard */,
 				C270BC361C75772E00B93838 /* Assets.xcassets */,
 				C270BC381C75772E00B93838 /* LaunchScreen.storyboard */,
-				C270BC3B1C75772E00B93838 /* Info.plist */,
+				C270BC331C75772E00B93838 /* Main.storyboard */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -230,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C270BC3A1C75772E00B93838 /* LaunchScreen.storyboard in Resources */,
+				C270BC5E1C757C7400B93838 /* golden_bridge.jpg in Resources */,
 				C270BC371C75772E00B93838 /* Assets.xcassets in Resources */,
 				C270BC351C75772E00B93838 /* Main.storyboard in Resources */,
 			);
@@ -256,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C70C481C7593BC004E8939 /* SecondViewController.swift in Sources */,
 				C270BC321C75772E00B93838 /* ViewController.swift in Sources */,
+				C2C70C4A1C759BF6004E8939 /* ThirdViewController.swift in Sources */,
 				C270BC301C75772E00B93838 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +494,7 @@
 				C270BC561C75772E00B93838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C270BC571C75772E00B93838 /* Build configuration list for PBXNativeTarget "QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				C270BC591C75772E00B93838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C270BC5A1C75772E00B93838 /* Build configuration list for PBXNativeTarget "QuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				C270BC5C1C75772E00B93838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
