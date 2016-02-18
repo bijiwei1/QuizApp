@@ -20,11 +20,12 @@ class ThirdViewController: UIViewController {
     
     override func viewDidLoad() {
         ans1.text = ImageText
+        ans2.text = TextAns
     }
 
     override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+       super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
     }
     
 

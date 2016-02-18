@@ -30,7 +30,6 @@ class SecondViewController: UIViewController {
         
         DestVC2.TextAns = TEXTans.text!
         
-        
     }
     
 

@@ -31,11 +31,17 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0k-ak-yUA">
-                                <rect key="frame" x="110" y="402" width="90" height="39"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Submit"/>
-                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RN9-m0-PIb">
+                                <rect key="frame" x="41" y="354" width="228" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="kES-ME-MZd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="InputAns:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="bxh-wN-7GX"/>
+                                </connections>
+                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oa8-mc-fz4">
                                 <rect key="frame" x="229" y="486" width="40" height="34"/>
                                 <color key="backgroundColor" red="0.40000000596046448" green="1" blue="0.80000001192092896" alpha="1" colorSpace="calibratedRGB"/>
@@ -47,18 +53,11 @@
                                     <segue destination="lgn-bf-j4L" kind="presentation" id="Y0U-74-qHa"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RN9-m0-PIb">
-                                <rect key="frame" x="41" y="354" width="228" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="kES-ME-MZd"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="InputAns:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="bxh-wN-7GX"/>
-                                    <outlet property="delegate" destination="BYZ-38-t0r" id="bwh-od-LwH"/>
-                                </connections>
-                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0k-ak-yUA">
+                                <rect key="frame" x="110" y="402" width="90" height="39"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Submit"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -85,12 +84,11 @@
                         <outlet property="ImageAns" destination="RN9-m0-PIb" id="GQ0-tt-Ahh"/>
                         <outlet property="ImageNext" destination="oa8-mc-fz4" id="oZ6-kQ-mzf"/>
                         <outlet property="ImageQ" destination="Jz8-eN-Y91" id="iVt-NP-Bek"/>
-                        <outlet property="ImageSum" destination="s0k-ak-yUA" id="eHK-gE-9Zk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="45" y="377"/>
+            <point key="canvasLocation" x="-88" y="304"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="Yv4-Jw-kTG">
@@ -161,7 +159,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7F-lu-JyD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="459" y="377"/>
+            <point key="canvasLocation" x="303" y="339"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="455-l9-qhF">

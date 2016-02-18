@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var ImageQ: UILabel!
     @IBOutlet weak var Image: UIImageView!
     @IBOutlet weak var ImageNext: UIButton!
-    @IBOutlet weak var ImageSub: UIButton!
+
     
  
     override func viewDidLoad() {
