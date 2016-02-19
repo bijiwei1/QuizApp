@@ -159,11 +159,6 @@
                                     <segue destination="uXe-6C-uhV" kind="presentation" id="y5Q-Qa-x1D"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogS-rv-NSb">
-                                <rect key="frame" x="115" y="342" width="90" height="39"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Submit"/>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lWH-d0-ijS">
                                 <rect key="frame" x="49" y="286" width="223" height="40"/>
                                 <constraints>
@@ -177,10 +172,7 @@
                         <constraints>
                             <constraint firstItem="lWH-d0-ijS" firstAttribute="leading" secondItem="Y0f-N3-tgg" secondAttribute="leadingMargin" constant="33" id="0rt-yt-G1x"/>
                             <constraint firstItem="vl7-oc-Svn" firstAttribute="top" secondItem="6Ae-r0-9DX" secondAttribute="bottom" constant="82" id="9Cn-W9-79g"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ogS-rv-NSb" secondAttribute="trailing" constant="95" id="MyN-qb-TGG"/>
                             <constraint firstItem="Gii-91-0zi" firstAttribute="top" secondItem="nLC-Nh-9ks" secondAttribute="bottom" constant="52" id="OfU-Rs-Vhb"/>
-                            <constraint firstItem="ogS-rv-NSb" firstAttribute="leading" secondItem="Y0f-N3-tgg" secondAttribute="leadingMargin" constant="95" id="RNQ-eF-uNP"/>
-                            <constraint firstItem="ogS-rv-NSb" firstAttribute="top" secondItem="lWH-d0-ijS" secondAttribute="bottom" constant="29" id="Xsn-M2-yWW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="lWH-d0-ijS" secondAttribute="trailing" constant="32" id="aqB-bW-dwu"/>
                             <constraint firstItem="vl7-oc-Svn" firstAttribute="leading" secondItem="Y0f-N3-tgg" secondAttribute="leadingMargin" constant="-5" id="bgI-xz-Vgu"/>
                             <constraint firstItem="lWH-d0-ijS" firstAttribute="top" secondItem="vl7-oc-Svn" secondAttribute="bottom" constant="121" id="elh-8F-Dvg"/>
@@ -193,7 +185,6 @@
                         <outlet property="TEXTans" destination="lWH-d0-ijS" id="Yfi-6S-TKJ"/>
                         <outlet property="next" destination="nLC-Nh-9ks" id="AWh-vB-8PK"/>
                         <outlet property="question" destination="vl7-oc-Svn" id="hjz-Dd-yB3"/>
-                        <outlet property="sub" destination="ogS-rv-NSb" id="Pcq-cS-wmV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n7F-lu-JyD" userLabel="First Responder" sceneMemberID="firstResponder"/>

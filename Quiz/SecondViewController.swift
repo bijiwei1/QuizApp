@@ -12,7 +12,6 @@ class SecondViewController: UIViewController {
 
 
     @IBOutlet weak var TEXTans: UITextField!
-    @IBOutlet weak var sub: UIButton!
     @IBOutlet weak var next: UIButton!
     @IBOutlet weak var question: UILabel!
     
