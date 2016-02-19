@@ -14,8 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var ImageQ: UILabel!
     @IBOutlet weak var Image: UIImageView!
     @IBOutlet weak var ImageNext: UIButton!
-
-    
  
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,9 +28,9 @@ class ViewController: UIViewController {
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        let DestVC : ThirdViewController = segue.destinationViewController as! ThirdViewController
+        let DestVC : SecondViewController = segue.destinationViewController as! SecondViewController
         
-        DestVC.ImageText = ImageAns.text!
+        DestVC.ImageTextTrans = ImageAns.text!
         
     }
 }

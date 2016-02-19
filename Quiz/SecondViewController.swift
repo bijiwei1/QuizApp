@@ -10,13 +10,15 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
-    
 
     @IBOutlet weak var TEXTans: UITextField!
+    @IBOutlet weak var sub: UIButton!
+    @IBOutlet weak var next: UIButton!
+    @IBOutlet weak var question: UILabel!
     
+    var ImageTextTrans: String = ""
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -27,9 +29,8 @@ class SecondViewController: UIViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let DestVC2 : ThirdViewController = segue.destinationViewController as! ThirdViewController
-        
         DestVC2.TextAns = TEXTans.text!
-        
+        DestVC2.ImageText = ImageTextTrans
     }
     
 

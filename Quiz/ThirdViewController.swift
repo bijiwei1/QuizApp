@@ -10,10 +10,10 @@ import UIKit
 
 class ThirdViewController: UIViewController {
 
+    @IBOutlet weak var prompt: UILabel!
     @IBOutlet weak var ans1: UILabel!
-    
     @IBOutlet weak var ans2: UILabel!
-    
+    @IBOutlet weak var back: UIButton!
     var ImageText :String = ""
     var TextAns : String = ""
     
