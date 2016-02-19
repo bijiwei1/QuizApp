@@ -14,13 +14,30 @@ class ThirdViewController: UIViewController {
     @IBOutlet weak var ans1: UILabel!
     @IBOutlet weak var ans2: UILabel!
     @IBOutlet weak var back: UIButton!
+    @IBOutlet weak var Correct: UILabel!
+    @IBOutlet weak var correct2: UILabel!
+    
     var ImageText :String = ""
     var TextAns : String = ""
-    
+    var correctAns1 : String = "Golden Bridge"
+    var correctAns2 : String = "Beijing"
     
     override func viewDidLoad() {
-        ans1.text = ImageText
-        ans2.text = TextAns
+        ans1.text = "Your answer: "+ImageText
+        ans2.text = "Your answer: "+TextAns
+        if (ImageText == correctAns1){
+            Correct.text = "Your answer is correct"
+        }
+        else {
+            Correct.text = "Your answer is incorrect"
+        }
+        
+        if (TextAns == correctAns2){
+            correct2.text = "Your answer is correct"
+        }
+        else {
+            correct2.text = "Your answer is incorrect"
+        }
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,5 +55,6 @@ class ThirdViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
 
 }
